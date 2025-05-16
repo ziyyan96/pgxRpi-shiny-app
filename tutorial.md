@@ -22,21 +22,21 @@ Or use the RStudio "Run App" button.
 - Set filters or biosample IDs.
 - Click "Load Data".
 - Preview and download data.
-
+![Workflow Diagram](./images/load_data.png)
 #### Step 2: Metadata Plot
 - Set grouping and condition.
 - Click "Generate Plot".
-
+![Workflow Diagram](./images/metadata.png)
 #### Step 3: CNV Frequency Loader
 - Enter NCIT filters.
 - Choose pgxfreq or pgxmatrix.
 - Load data and download results.
-
+![Workflow Diagram](./images/load_frequency.png)
 #### Step 4: CNV Frequency Plot
 - Choose plot type: Genome-wide, Chromosome, Circos.
 - Set layout.
 - Generate plot.
-
+![Workflow Diagram](./images/frequency_plot.png)
 #### Step 5: Simulate or Upload Segment Data
 - Simulate example segment data or upload your own.
 - Run segtoFreq.
