@@ -1,7 +1,7 @@
 library(shiny)
 library(DT)
 library(pgxRpi)
-
+library(GenomicRanges)
 ui <- navbarPage("Progenetix API Explorer",
                  
                  tabPanel("Load Data",
@@ -91,8 +91,8 @@ ui <- navbarPage("Progenetix API Explorer",
                               downloadButton("download_segtofreq_upload", "Download CNV Frequency Data")
                             ),
                             mainPanel(
-                              h4("CNV Frequency Data Summary"),
-                              verbatimTextOutput("cnv_data_summary"),
+                              #h4("CNV Frequency Data Summary"),
+                              #verbatimTextOutput("cnv_data_summary"),
                               h4("CNV Metadata Preview"),
                               verbatimTextOutput("cnv_metadata_preview"),
                               h4("CNV Table Preview"),
